@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-
+import trendRoutes from "../server/routes/trends.route.js";
 const app = express();
 
 app.use(express.json());
@@ -12,6 +12,7 @@ const PORT = 5000;
 app.get("/", (req, res) => {
   res.send("TrendCast backend is running");
 });
+app.use("/api/trends", trendRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server is running on PORT ${PORT}`);
