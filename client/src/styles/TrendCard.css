@@ -1,0 +1,47 @@
+.trend-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  text-align: left;
+  transition: 0.3s ease-in-out;
+}
+
+.trend-card:hover {
+  transform: translateY(-5px);
+}
+
+.trend-card h3 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.trend-card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.view-detail-btn {
+  background-color: #2b3a67;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-detail-btn:hover {
+  background-color: #1d2749;
+}
+
+.trend-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
