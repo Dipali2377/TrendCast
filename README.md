@@ -1,6 +1,6 @@
 # 🌐 TrendCast
 
-TrendCast is a web application inspired by Google Trends that allows users to explore **real-time trending topics**, visualize data through **interactive charts**, and filter trends based on **regions**. It provides a user-friendly interface to stay updated with what's currently popular around the world.
+TrendCast is a web application inspired by Google Trends that allows users to explore **real-time trending topics**and filter trends based on **regions**. It provides a user-friendly interface to stay updated with what's currently popular around the world.
 
 ---
 
@@ -43,3 +43,7 @@ TrendCast is a web application inspired by Google Trends that allows users to ex
 git clone https://github.com/Dipali2377/TrendCast.git
 cd TrendCast
 ```
+
+## LIVE DEMO
+
+https://trend-cast.netlify.app/
